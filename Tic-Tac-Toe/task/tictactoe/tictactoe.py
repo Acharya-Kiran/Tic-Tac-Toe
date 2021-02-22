@@ -94,20 +94,3 @@ if __name__ == "__main__":
         tictactoe.process_input()
 
     del tictactoe
-
-    # game_state = " " * 9
-    # player = 'X'
-    # display_grid(game_state)
-    # cx, cy = input("Enter the coordinates: ").split()
-    #
-    # while not process(game_state):
-    #     check_flag, check_res = check_coordinates(cx, cy, player)
-    #     while check_flag:
-    #         print(check_res)
-    #         cx, cy = input("Enter the coordinates: ").split()
-    #         check_flag, check_res = check_coordinates(cx, cy, player)
-    #     display_grid(game_state)
-    #     if player == 'X':
-    #         player = 'O'
-    #     else:
-    #         player = 'X'
